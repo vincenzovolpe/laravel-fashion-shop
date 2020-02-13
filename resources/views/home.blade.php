@@ -20,7 +20,7 @@
                           <img src="{{ asset("images/$cloth->images_name")}}" class="card-img-top" alt="{{$cloth->name}}">
                       <div class="card-body">
                         <h5 class="card-title">{{$cloth->name}}</h5>
-                        <p class="card-text">{{$cloth->description}}</p>
+                        <p class="card-text text-justify">{{$cloth->description}}</p>
                       </div>
                     </div>
                   </div>
