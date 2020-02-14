@@ -133,6 +133,7 @@
 
       <div class="album py-5 bg-light">
         <div class="container">
+            <h3 class="h3">Collezione</h3>
           <div class="row row-cols-1 row-cols-md-3">
               @foreach ($clothes as $cloth)
                   <div class="col mb-4">
